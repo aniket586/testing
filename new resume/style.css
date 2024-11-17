@@ -1,0 +1,130 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: small;
+    padding: -10px;
+    margin: 20px auto;
+    max-width: 800px;
+    line-height: 1.5;
+    background-color:rgb(8, 8, 8);
+}
+
+.header {
+    background-color: rgb(38, 73, 124); 
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.header-content p {
+    font-size: 1em; 
+    padding-top: 2px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: -9px;
+
+}
+.photo {
+    position: absolute;
+    top:90px; 
+    left:900px;
+
+}
+
+.photo img {
+    width: 110px;
+    height: 150px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.intro {
+    margin-top: 20px;
+    max-width: 600px;
+    padding: -1px;
+    
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.section {
+    margin: 30px 0;
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%; /* Ensure full width */
+}
+
+.section-title {
+    background-color: rgb(38, 73, 124);
+    color: white;
+    padding: 10px 30px;
+    margin: 0;
+    width: 250px; /* Fixed width for all section titles */
+}
+
+.section-line {
+    flex: 1;
+    height: 2px;
+    background-color:rgb(38, 73, 124);
+    margin-bottom: -55px; /* Slight overlap to prevent gap */
+    margin-right: 30px;
+}
+
+.experience-item, .education-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.date {
+    text-align: left;
+    font-weight: bold;
+    padding-left: 50px;
+    margin: 10px;
+}
+.company{
+    font-weight: lighter;
+    margin-top: -1px;
+    padding-left: 1px;
+    
+}
+ 
+
+
+.content {
+    padding-left: 11px;
+    margin: 10px;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: -6px;
+}
+
+.description {
+    margin-top: 5px;
+    padding: 0px;
+    display: flex;
+}
+
+.communication-points {
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-right: 100px;
+}
+.Container{
+    background-color: white;
+}
+
